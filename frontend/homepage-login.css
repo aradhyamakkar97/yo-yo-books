@@ -1,0 +1,28 @@
+body{
+  background: #ffc34d;
+}
+
+/* navbar styles */
+
+#searchInput{
+  width: 200px;
+}
+@media screen and (min-width: 991px) {
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+}
+.navbar-inverse{
+background: #331100;
+}
+
+@media screen and (min-width: 1200px){
+  .heart{
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 1199px){
+  #imgg{
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<link rel="stylesheet" href="range/rangeslider.css">
+<link rel="stylesheet" href="profile-others.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="" class="navbar-brand"><b>YO YO</b> BOOKS</a>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="mainNavBar">
+
+          <ul class="nav navbar-nav navbar-left">
+            <li>
+              <a href=""><span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+            <li>
+              <a href=""><span class="glyphicon glyphicon-map-marker"></span> Books Near Me</a>
+            </li>
+          </ul>
+
+          <form class="navbar-form navbar-left">
+            <input id="searchInput" type="text" class="form-control" placeholder="Search for a book ...">
+            <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+          </form>
+
+
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#"><span class="glyphicon glyphicon-book"></span> My Books</a>
+            </li>
+            <li>
+              <a style="background:green;color:white" href="#" data-original-title="You have {{n}} new messages" rel="tooltip" data-placement="bottom"><span class="glyphicon glyphicon-envelope"></span> Messages</a>
+            </li>
+            <li class="dropdown">
+              <a href="" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span><strong class="caret"></strong></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href=""><span class="glyphicon glyphicon-user"></span> My Profile</a>
+                </li>
+                <li>
+                  <a href=""><span class="glyphicon glyphicon-record"></span> About</a>
+                </li>
+                <li>
+                  <a href=""><span class="glyphicon glyphicon-question-sign"></span> faqs</a>
+                </li>
+                <li class="divider">
+                </li>
+                <li>
+                  <a href=""><span class="glyphicon glyphicon-off"></span> Sign out</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+
+
+      </div>
+
+
+
+    </nav>
+
+<div style="margin-top:60px"></div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-7" style="border-right: solid #331100;">
+
+<div class="row">
+  <div class="col-md-3"><br><a href="http://www.facebook.com" target="_blank"><img src="http://placehold.it/150x150"> <img id="fb-pic" src="fb-icon.png"></a></div>
+
+  <div class="col-md-9">
+<h3><b>Shivam Kumar</b></h3>
+<hr style="
+margin-top:10px;;
+padding: 0;
+border: none;
+border-top: medium double #333;
+color: #333;
+text-align: center;
+"></hr>
+<h5><b>Primary address:</b> <span class="text-muted">NYC Bla bla bla room no. 20, house no 1293/V, Meow meow, USA</span></h5>
+<h5><b>Secondary address:</b> <span class="text-muted">ATS Advantage , Ahinsa Khand, Indirapuram, Ghaziabad (if he has given)</span>
+</h5>
+<h5><b>Number of books:</b> <span class="text-muted">23</span></h5>
+
+<br>
+<h5 style="color:darkblue">Shivam is <span class="glyphicon glyphicon-map-marker"></span> 10 km away from your place</h5>
+
+  </div>
+</div>
+
+<hr style="
+margin-top:10px;;
+padding: 0;
+border: none;
+border-top: medium double #333;
+color: #333;
+text-align: center;
+"></hr>
+
+<h3> Shivam Kumar's books:</h3><br>
+<div class="row">
+  <div class="col-sm-6 col-lg-3" style="text-align:center">
+    <a href="">
+    <div><img src="http://placehold.it/120x170"></div>
+    <div style="color:black">What the dog saw and other adventures</div>
+  </a>
+    <button type="submit" class="btn btn-primary" style="">Borrow!</button><br><br>
+
+
+  </div>
+  <div class="col-sm-6 col-lg-3" style="text-align:center">
+    <a href="">
+    <div><img src="http://placehold.it/120x170"></div>
+    <div style="color:black">What the dog saw and other adventures</div>
+  </a>
+    <button  class="btn btn-primary pop disabled" data-toggle="popover" data-placement="bottom" data-content="You can't borrow as the user is too far away from you" >Borrow!</button><br><br>
+
+
+  </div>
+  <div class="col-sm-6 col-lg-3" style="text-align:center">
+    <a href="">
+    <div><img src="http://placehold.it/120x170"></div>
+    <div style="color:black">What the dog saw and other adventures</div>
+  </a>
+    <button type="submit" class="btn btn-primary" style="">Borrow!</button><br><br>
+
+
+  </div>
+  <div class="col-sm-6 col-lg-3" style="text-align:center">
+    <a href="">
+    <div><img src="http://placehold.it/120x170"></div>
+    <div style="color:black">What the dog saw and other adventures</div>
+  </a>
+    <button type="submit" class="btn btn-primary" style="">Borrow!</button><br>
+
+
+  </div>
+</div>
+<br>
+<a href=""><h4 class="text-right">View all book by Shivam Kumar</h4></a>
+
+
+
+
+
+
+<hr style="
+margin-top:30px;;
+padding: 0;
+border: none;
+border-top: medium double #333;
+color: #333;
+text-align: center;
+"></hr>
+
+<h3>Shivam Kumar's "loved" content: </h3><br>
+
+
+
+
+
+
+
+
+<div class="list-group">
+  <div class="row" style="background:#cccccc">
+  <div class="col-lg-10">
+    <a href="" target="_blank" class="list-group-item" style="margin-top:10px;margin-bottom:10px;">
+      <div class="row">
+        <div class="col-lg-4" style="text-align:center;">
+          <img src="http://placehold.it/150x150" id="imgg">
+        </div>
+      <div class="col-lg-8">
+      <h4 class="list-group-item-heading">10 most amazing books ever</h4>
+      <p class="list-group-item-text">
+
+        These are the books recommended by elon musk AND einstein. can u believe that?
+      Can u? U little shit? meow meo le.eacher le.eacher le.eacher le.</p>
+        </div>
+
+    </div>
+    </a>
+  </div>
+  <div class="col-lg-2" style="text-align:center;">
+    <span data-original-title='"love" this link' rel="tooltip" data-placement="bottom" class="glyphicon glyphicon-heart heart" style="font-size: 50px;"></span>
+  </div>
+
+  </div>
+  <br>
+
+
+
+<div class="row" style="background:#cccccc">
+<div class="col-lg-10">
+  <a href="" target="_blank" class="list-group-item" style="margin-top:10px;margin-bottom:10px;">
+    <div class="row">
+      <div class="col-lg-4" style="text-align:center;">
+        <img src="http://placehold.it/150x150" id="imgg">
+      </div>
+    <div class="col-lg-8">
+    <h4 class="list-group-item-heading">10 most amazing books ever</h4>
+    <p class="list-group-item-text">
+
+      These are the books recommended by elon musk AND einstein. can u believe that?
+    Can u? U little shit? meow meo le.eacher le.eacher le.eacher le.</p>
+      </div>
+
+  </div>
+  </a>
+</div>
+<div class="col-lg-2" style="text-align:center;">
+  <span data-original-title='"love" this link' rel="tooltip" data-placement="bottom" class="glyphicon glyphicon-heart heart" style="font-size: 50px;"></span>
+</div>
+
+</div>
+<br>
+
+
+
+<div class="row" style="background:#cccccc">
+<div class="col-lg-10">
+  <a href="" target="_blank" class="list-group-item" style="margin-top:10px;margin-bottom:10px;">
+    <div class="row">
+      <div class="col-lg-4" style="text-align:center;">
+        <img src="http://placehold.it/150x150" id="imgg">
+      </div>
+    <div class="col-lg-8">
+    <h4 class="list-group-item-heading">10 most amazing books ever</h4>
+    <p class="list-group-item-text">
+
+      These are the books recommended by elon musk AND einstein. can u believe that?
+    Can u? U little shit? meow meo le.eacher le.eacher le.eacher le.</p>
+      </div>
+
+  </div>
+  </a>
+</div>
+<div class="col-lg-2" style="text-align:center;">
+  <span data-original-title='"unlove" this link' rel="tooltip" data-placement="bottom" class="glyphicon glyphicon-heart heart" style="font-size: 50px;color:red"></span>
+</div>
+
+</div>
+  <br>
+
+
+  <div class="row" style="background:#cccccc">
+  <div class="col-lg-10">
+    <a href="" target="_blank" class="list-group-item" style="margin-top:10px;margin-bottom:10px;">
+      <div class="row">
+        <div class="col-lg-4" style="text-align:center;">
+          <img src="http://placehold.it/150x150" id="imgg">
+        </div>
+      <div class="col-lg-8">
+      <h4 class="list-group-item-heading">10 most amazing books ever</h4>
+      <p class="list-group-item-text">
+
+        These are the books recommended by elon musk AND einstein. can u believe that?
+      Can u? U little shit? meow meo le.eacher le.eacher le.eacher le.</p>
+        </div>
+
+    </div>
+    </a>
+  </div>
+  <div class="col-lg-2" style="text-align:center;">
+    <span data-original-title='"love" this link' rel="tooltip" data-placement="bottom" class="glyphicon glyphicon-heart heart" style="font-size: 50px;"></span>
+  </div>
+
+  </div>
+
+  <br>
+  <div class="row" style="background:#cccccc">
+  <div class="col-lg-10">
+    <a href="" target="_blank" class="list-group-item" style="margin-top:10px;margin-bottom:10px;">
+      <div class="row">
+        <div class="col-lg-4" style="text-align:center;">
+          <img src="http://placehold.it/150x150" id="imgg">
+        </div>
+      <div class="col-lg-8">
+      <h4 class="list-group-item-heading">10 most amazing books ever</h4>
+      <p class="list-group-item-text">
+
+        These are the books recommended by elon musk AND einstein. can u believe that?
+      Can u? U little shit? meow meo le.eacher le.eacher le.eacher le.</p>
+        </div>
+
+    </div>
+    </a>
+  </div>
+  <div class="col-lg-2" style="text-align:center;">
+    <span data-original-title='"love" this link' rel="tooltip" data-placement="bottom" class="glyphicon glyphicon-heart heart" style="font-size: 50px;"></span>
+  </div>
+
+  </div>
+
+  <br>
+
+
+
+  <div class="row" style="background:#cccccc">
+  <div class="col-lg-10">
+    <a href="" target="_blank" class="list-group-item" style="margin-top:10px;margin-bottom:10px;">
+      <div class="row">
+        <div class="col-lg-4" style="text-align:center;">
+          <img src="http://placehold.it/150x150" id="imgg">
+        </div>
+      <div class="col-lg-8">
+      <h4 class="list-group-item-heading">10 most amazing books ever</h4>
+      <p class="list-group-item-text">
+
+        These are the books recommended by elon musk AND einstein. can u believe that?
+      Can u? U little shit? meow meo le.eacher le.eacher le.eacher le.</p>
+        </div>
+
+    </div>
+    </a>
+  </div>
+  <div class="col-lg-2" style="text-align:center;">
+    <span data-original-title='"love" this link' rel="tooltip" data-placement="bottom" class="glyphicon glyphicon-heart heart" style="font-size: 50px;"></span>
+  </div>
+
+  </div>
+
+  <br>
+
+  <div class="row" style="background:#cccccc">
+  <div class="col-lg-10">
+    <a href="" target="_blank" class="list-group-item" style="margin-top:10px;margin-bottom:10px;">
+      <div class="row">
+        <div class="col-lg-4" style="text-align:center;">
+          <img src="http://placehold.it/150x150" id="imgg">
+        </div>
+      <div class="col-lg-8">
+      <h4 class="list-group-item-heading">10 most amazing books ever</h4>
+      <p class="list-group-item-text">
+
+        These are the books recommended by elon musk AND einstein. can u believe that?
+      Can u? U little shit? meow meo le.eacher le.eacher le.eacher le.</p>
+        </div>
+
+    </div>
+    </a>
+  </div>
+  <div class="col-lg-2" style="text-align:center;">
+    <span data-original-title='"love" this link' rel="tooltip" data-placement="bottom" class="glyphicon glyphicon-heart heart" style="font-size: 50px;"></span>
+  </div>
+
+  </div>
+
+  <br>
+  <div class="row" style="background:#cccccc">
+  <div class="col-lg-10">
+    <a href="" target="_blank" class="list-group-item" style="margin-top:10px;margin-bottom:10px;">
+      <div class="row">
+        <div class="col-lg-4" style="text-align:center;">
+          <img src="http://placehold.it/150x150" id="imgg">
+        </div>
+      <div class="col-lg-8">
+      <h4 class="list-group-item-heading">10 most amazing books ever</h4>
+      <p class="list-group-item-text">
+
+        These are the books recommended by elon musk AND einstein. can u believe that?
+      Can u? U little shit? meow meo le.eacher le.eacher le.eacher le.</p>
+        </div>
+
+    </div>
+    </a>
+  </div>
+  <div class="col-lg-2" style="text-align:center;">
+    <span data-original-title='"love" this link' rel="tooltip" data-placement="bottom" class="glyphicon glyphicon-heart heart" style="font-size: 50px;"></span>
+  </div>
+
+  </div>
+
+  <br>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+<div class="col-xs-5">
+
+  <h3 style="font-family:Comic Sans MS, sans-serif;color:#66194d; word-wrap: break-word;" class="text-center"><b>Personalised Books Recommender</b></h3>
+
+  <hr style="
+  margin-top:30px;;
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+  "></hr>
+<br>
+<form>
+
+
+
+    <p style="color:#331100"><b><code>Ease of read</code></b></p>
+  <input type="range" name="ease" min="0" max="10"><br>
+  <div style="text-align:center;">
+  <p style="color:#331100"><b id="ease">Normal</b></p>
+  </div>
+
+
+
+    <p style="color:#331100;"><b><code>Humor</code></b></p>
+    <input type="range" name="humor" min="0" max="10"><br>
+    <div style="text-align:center;">
+    <p style="color:#331100"><b id="humor">Medium</b></p>
+    </div>
+
+  <p style="color:#331100"><b><code>Mood</code></b></p>
+  <input type="range" name="mood" min="0" max="10"><br>
+  <div style="text-align:center;">
+  <p style="color:#331100"  ><b id="mood">Neutral</b></p>
+  </div>
+
+
+
+
+
+
+<p style="color:#331100"><b><code>Violence</code></b></p>
+<input type="range" name="violence" min="0" max="10"><br>
+<div style="text-align:center;">
+<p style="color:#331100"><b id="violence">Medium</b></p>
+</div>
+
+
+
+
+<br>
+
+
+
+
+<div style="text-align:center;">
+<button type="submit" class="btn btn-success" style="">Go!</button>
+</div>
+</form>
+
+<hr style="
+margin-top:30px;;
+padding: 0;
+border: none;
+border-top: medium double #333;
+color: #333;
+text-align: center;
+"></hr>
+
+<h3 style="font-family:Comic Sans MS, sans-serif;color:#66194d; word-wrap: break-word;"><b> You have {{n}} books that others can Borrow</b></h3>
+<br>
+
+<div class="row">
+  <div class="col-md-4" style="text-align:center">
+  <a href="">
+  <div><img src="http://placehold.it/120x170"></div>
+  <div style="color:black">What the dog saw and other adventures</div>
+</a><br>
+</div>
+
+<div class="col-md-4" style="text-align:center">
+<a href="">
+<div><img src="http://placehold.it/120x170"></div>
+<div style="color:black">What the dog saw and other adventures</div>
+</a><br>
+</div>
+
+<div class="col-md-4" style="text-align:center">
+<a href="">
+<div><img src="http://placehold.it/120x170"></div>
+<div style="color:black">What the dog saw and other adventures</div>
+</a><br>
+</div>
+
+</div>
+
+<a href="" class='text-right'> <h4 style="font-family:Comic Sans MS, sans-serif;color:#66194d; word-wrap: break-word;"><b>Add more books</b></h4></a>
+
+
+
+
+
+</div>
+
+
+</div>
+</div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="range/rangeslider.min.js"></script>
+<script>
+$("li").hover(function() {
+    $(this).addClass("active");
+}, function() {
+    $(this).removeClass("active");
+});
+
+$('[rel="tooltip"]').tooltip();
+
+$('a.pop').click(function(e){
+e.preventDefault();
+});
+$('a.pop').popover();
+
+$('.heart').click(function(){
+if($(this).attr('data-original-title')=='"love" this link'){
+
+  $(this).attr('data-original-title','"unlove" this link');
+  $(this).css("color", "red");
+}
+else{
+  $(this).attr('data-original-title','"love" this link');
+  $(this).css("color", "");
+}
+});
+
+$('input[name="ease"]').rangeslider({
+  polyfill:false,
+
+    onSlide : function(position,value){
+
+      if (value=='0' || value=='1'){
+        $('#ease').text('Lite!');
+      }
+      if (value=='2' || value=='3'){
+        $('#ease').text('Easy');
+      }
+      if (value=='4' || value=='5' || value=='6'){
+        $('#ease').text('Normal');
+      }
+      if (value=='7' || value=='8'){
+        $('#ease').text('Demanding');
+      }
+      if (value=='9' || value=='10'){
+        $('#ease').text('Challenging!');
+      }
+    }
+});
+
+
+
+$('input[name="humor"]').rangeslider({
+  polyfill:false,
+
+    onSlide : function(position,value){
+
+      if (value=='0' || value=='1'){
+        $('#humor').text('Fucking Hilarious!!');
+      }
+      if (value=='2' || value=='3'){
+        $('#humor').text('Funny');
+      }
+      if (value=='4' || value=='5' || value=='6'){
+        $('#humor').text('Medium');
+      }
+      if (value=='7' || value=='8'){
+        $('#humor').text('Serious');
+      }
+      if (value=='9' || value=='10'){
+        $('#humor').text('Dead Serious');
+      }
+    }
+});
+
+
+
+$('input[name="mood"]').rangeslider({
+  polyfill:false,
+
+    onSlide : function(position,value){
+
+      if (value=='0' || value=='1'){
+        $('#mood').text('Very Happy!');
+      }
+      if (value=='2' || value=='3'){
+        $('#mood').text('Happy');
+      }
+      if (value=='4' || value=='5' || value=='6'){
+        $('#mood').text('Neutral');
+      }
+      if (value=='7' || value=='8'){
+        $('#mood').text('Sad');
+      }
+      if (value=='9' || value=='10'){
+        $('#mood').text('Very Sad :(');
+      }
+    }
+});
+
+
+$('input[name="violence"]').rangeslider({
+  polyfill:false,
+
+    onSlide : function(position,value){
+
+      if (value=='0' || value=='1'){
+        $('#violence').text('Very Low');
+      }
+      if (value=='2' || value=='3'){
+        $('#violence').text('Low');
+      }
+      if (value=='4' || value=='5' || value=='6'){
+        $('#violence').text('Medium');
+      }
+      if (value=='7' || value=='8'){
+        $('#violence').text('High');
+      }
+      if (value=='9' || value=='10'){
+        $('#violence').text('Very High');
+      }
+    }
+});
+$('input[type="range"]').rangeslider({
+    polyfill : false,
+
+});
+
+$('button.pop').click(function(e) {
+  e.preventDefault();
+});
+
+$('button.pop').popover();
+
+
+</script>
+</body>
+
+</html>
